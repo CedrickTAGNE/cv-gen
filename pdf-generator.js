@@ -48,6 +48,7 @@ async function createPDF(data, templatUrl) {
 		return res;
 	} catch (error) {
 		console.log(error);
+		throw error
 	}
 
 }
